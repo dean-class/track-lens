@@ -1,6 +1,6 @@
 # Track Lens (Beta)
 
-Track Lens is a browser extension for DJ music discovery on Spotify Web Player and YouTube Music. It displays BPM, Camelot key, energy and danceability, then helps identify harmonically compatible tracks using analysis providers and currently visible music recommendations.
+Track Lens is a little browser tool I built for checking tunes while listening on Spotify Web Player or YouTube Music. It shows BPM, Camelot key, energy and danceability, then checks Radio, Queue or Up Next for tracks in compatible keys. It's a beta, and your ears still get the final say.
 
 - **Website:** https://dean-class.github.io/track-lens/
 - **Download:** https://dean-class.github.io/track-lens/downloads/track-lens-v0.8.2.zip
@@ -15,7 +15,7 @@ Download the versioned ZIP from the website, extract it to a permanent folder, a
 
 ## Important beta notes
 
-- Analysis comes from Song Finder and, when available, ReccoBeats, not directly from Spotify or YouTube Music.
+- Acoustic analysis comes from [Song Finder](https://songfinder.dev/developers) and, when needed, [ReccoBeats](https://reccobeats.com/docs/documentation/introduction), not directly from Spotify or YouTube Music. Track Lens is independent of both services.
 - Some songs, remixes and recordings may have no available analysis; uncertain matches require review.
 - A harmonic match is based on musical key; always listen before attempting a live mix.
 - The site and installation ZIP are public. **Do not upload exported personal Track Lens library backups or credentials to this repository.**
